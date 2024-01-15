@@ -84,7 +84,7 @@ CREATE TABLE `t_hotspot` (
   `tanggal` date NOT NULL,
   `marker` varchar(50) NOT NULL,
   PRIMARY KEY (`id_hotspot`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -93,7 +93,7 @@ CREATE TABLE `t_hotspot` (
 
 LOCK TABLES `t_hotspot` WRITE;
 /*!40000 ALTER TABLE `t_hotspot` DISABLE KEYS */;
-INSERT INTO `t_hotspot` VALUES (1,18,'Jl. Peganggas gas amat','Kebakaran Parah sekali',-3.641010,114.775002,'2019-12-19','35281219011541.png'),(2,6,'Jl. Pegangga','Kebakaran Parah sekali',-3.656000,114.775002,'2019-12-19',''),(3,18,'Jl. Raya','Rusak parah',-3.816298,114.797401,'2019-12-20','7281219011755.png'),(4,18,'Jl A','Rusak parah',-3.817160,114.800987,'2019-12-20',''),(5,19,'Jl. Sepeda','-',-3.641010,114.675003,'2020-01-20',''),(6,6,'Rumah Saiful','-',-3.661010,114.775002,'2020-01-20',''),(7,21,'Rmah Jakaria','-',-3.846298,114.897400,'2020-01-20',''),(8,22,'HUtan Rawa Merawa','-',-3.761010,114.857399,'2020-01-20','91200120113957.png'),(9,18,'Gang Jambu','Rumah Terbakar',-3.817130,114.801888,'2020-02-11',''),(10,6,'Rumah Zakaria','Kompor Meledak',-3.657300,114.766006,'2020-02-11',''),(11,6,'Gedung Pencakar','Lantai 4 terbakar',-3.655300,114.696503,'2020-02-11',''),(12,6,'Pasar Kaki Lima','4 Loket terbakar',-3.655300,114.686501,'2020-02-11',''),(13,6,'Pasar 5','Terbakar habis',-3.685300,114.776009,'2020-02-11','');
+INSERT INTO `t_hotspot` VALUES (14,23,'Tambal Ban Husni','OK',-7.157892,112.655006,'2024-01-15','62150124082337.png');
 /*!40000 ALTER TABLE `t_hotspot` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -110,4 +110,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-01-15  8:57:55
+-- Dump completed on 2024-01-15 16:33:39
