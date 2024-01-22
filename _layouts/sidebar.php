@@ -47,6 +47,7 @@
         </li>
         <?php endif ?>
 
+        <?php if ($session->get("level") === "admin"): ?>
         <li class="treeview">
           <a href="#">
             <i class="fa fa-sitemap"></i>
@@ -59,6 +60,7 @@
             <li><a href="<?=url('hotspot')?>"><i class="fa fa-circle-o"></i> Hotspot</a></li>
           </ul>
         </li>
+        <?php endif; ?>
 
         <li class="treeview">
           <a href="#">

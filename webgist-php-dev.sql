@@ -53,6 +53,7 @@ CREATE TABLE `pengguna` (
   `id_pengguna` int NOT NULL AUTO_INCREMENT,
   `nm_pengguna` varchar(20) NOT NULL,
   `kt_sandi` varchar(32) NOT NULL,
+  `level` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_pengguna`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -63,7 +64,7 @@ CREATE TABLE `pengguna` (
 
 LOCK TABLES `pengguna` WRITE;
 /*!40000 ALTER TABLE `pengguna` DISABLE KEYS */;
-INSERT INTO `pengguna` VALUES (1,'admin','123456');
+INSERT INTO `pengguna` VALUES (1,'admin','123456','admin'),(2,'user','123456','user');
 /*!40000 ALTER TABLE `pengguna` ENABLE KEYS */;
 UNLOCK TABLES;
 
